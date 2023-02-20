@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* PC */
+@media ( min-width  : 1024px) {
+    
+}
+/* Chung Moble and Table  */
+@media  ( max-width : 1023px) {
+    
+}
+/*  TABLE*/
+@media (min-width :740px) and ( max-width : 1023px) {
+   .nav{
+    display: none;
+   } 
+   .side-bar{
+    display: none;
+   }
+   .content{
+    width: 100%;
+   }
+   .avata{
+    float: left;
+   }
+   .header__form{
+    flex-grow: 1;
+   }
+   header .find__icon{
+
+   }
+}
+/* MOBILE */
+@media (max-width :740px) {
+     
+}
